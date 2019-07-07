@@ -1,0 +1,13 @@
+.site-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 23.95%  76.05%;
+  max-width: 1920px;
+}
+
+@media screen and (max-width: 1046px) {
+  .site-wrapper {
+    display: block;
+  }
+}

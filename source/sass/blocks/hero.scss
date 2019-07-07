@@ -1,0 +1,139 @@
+.hero {
+  z-index: 10;
+  color: #fff;
+  background-color: #192d4e;
+}
+
+.hero__container {
+  padding-right: 33px;
+  padding-bottom: 40px;
+  padding-left: 35px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+
+.hero__container h1 {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  padding-top: 35px;
+  width: 46%;
+  font-size: 46px;
+  line-height: 58px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.hero__location {
+  margin: 0;
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.hero__location span {
+  padding-right: 10px;
+}
+
+.hero__date {
+  margin: 0;
+  padding-top: 402px;
+  font-size: 46px;
+  line-height: 56px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.hero__btn {
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 25px;
+  display: block;
+  width: 170px;
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #008bff;
+  border-radius: 25px;
+}
+
+.hero__prompt {
+  margin: 0;
+  margin-top: 17px;
+  padding-right: 5px;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 13px;
+  text-align: center;
+  font-style: italic;
+}
+
+.hero__more-info {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-right: 4px;
+  padding-bottom: 5px;
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 100;
+  color: #fff;
+}
+
+.hero__more-info::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  height: 1px;
+  width: 95%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1600px) {
+  .hero__container h1 {
+    min-width: 467px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .hero__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .hero__container h1 {
+    min-width: auto;
+    width: 100%;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .hero__location {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .hero__date {
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+}
